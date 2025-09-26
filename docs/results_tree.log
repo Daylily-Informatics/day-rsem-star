@@ -1,0 +1,32 @@
+results
+└── rsem
+    ├── a_1.genes.results
+    ├── a_1.genome.bam
+    ├── a_1.genome.sorted.bam
+    ├── a_1.genome.sorted.bam.bai
+    ├── a_1.genome.sorted.wig
+    ├── a_1.isoforms.results
+    ├── a_1.log
+    ├── a_1.stat
+    │   ├── a_1.cnt
+    │   ├── a_1.model
+    │   └── a_1.theta
+    ├── a_1.transcript.bam
+    ├── a_1.transcript.sorted.bam
+    ├── a_1.transcript.sorted.bam.bai
+    ├── b_1.genes.results
+    ├── b_1.genome.bam
+    ├── b_1.genome.sorted.bam
+    ├── b_1.genome.sorted.bam.bai
+    ├── b_1.genome.sorted.wig
+    ├── b_1.isoforms.results
+    ├── b_1.log
+    ├── b_1.stat
+    │   ├── b_1.cnt
+    │   ├── b_1.model
+    │   └── b_1.theta
+    ├── b_1.transcript.bam
+    ├── b_1.transcript.sorted.bam
+    └── b_1.transcript.sorted.bam.bai
+
+3 directories, 26 files

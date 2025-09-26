@@ -1,0 +1,28 @@
+resources
+├── Genome
+├── Log.out
+├── SA
+├── SAindex
+├── chrLength.txt
+├── chrName.txt
+├── chrNameLength.txt
+├── chrStart.txt
+├── exonGeTrInfo.tab
+├── exonInfo.tab
+├── geneInfo.tab
+├── genome.fasta
+├── genome.gtf
+├── genomeParameters.txt
+├── sjdbInfo.txt
+├── sjdbList.fromGTF.out.tab
+├── sjdbList.out.tab
+├── star_rsem.chrlist
+├── star_rsem.grp
+├── star_rsem.idx.fa
+├── star_rsem.n2g.idx.fa
+├── star_rsem.seq
+├── star_rsem.ti
+├── star_rsem.transcripts.fa
+└── transcriptInfo.tab
+
+0 directories, 25 files
