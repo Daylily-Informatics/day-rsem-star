@@ -130,8 +130,8 @@ snakemake --use-conda --use-singularity   \
 --verbose -k \
 --restart-times 2 \
 --max-threads 20000 \
---cores 20000 -j 14 
-
+--cores 20000 -j 14 \
+--include-aws-benchmark-metrics
 ```
 
  - You can watch progress with `watch squeue`.
