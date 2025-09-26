@@ -17,6 +17,9 @@ This repository provides a Snakemake workflow focused on transcript quantificati
 
 ## Prerequisites
 
+### `daylily-ephemeral-cluster` (using AWS Parallel Cluster)
+- This has been developed to run on an AWS Parallel Cluster slurm headnode, specifically one created using [https://github.com/Daylily-Informatics/daylily-ephemeral-cluster](https://github.com/Daylily-Informatics/daylily-ephemeral-cluster).
+
 ### Cluster resources
 Although the workflow can run on a workstation, it is primarily tuned for execution on an AWS ParallelCluster configured with the Slurm scheduler (see the [snakemake-executor-plugin-pcluster-slurm](https://github.com/Daylily-Informatics/snakemake-executor-plugin-pcluster-slurm-ref)). Adjust resource directives if using a different scheduler.
 
