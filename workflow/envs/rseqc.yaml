@@ -1,0 +1,8 @@
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - rseqc=5.0
+  - r-base
+  - r-essentials
