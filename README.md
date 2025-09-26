@@ -31,14 +31,14 @@ cd rna-seq-star-deseq2
 ## Build The `drnaseq` Conda Env
 ```bash
 conda create -n drsemstar -c conda-forge  tabulate yaml
-conda activate dremstar
+conda activate drsemstar
 
 pip install git+https://github.com/Daylily-Informatics/snakemake-aws@v9.11.4.3
 pip install snakemake-executor-plugin-pcluster-slurm==0.0.31
 pip install snakedeploy
 
 
-conda activate dremstar
+conda activate drsemstar
 snakemake --version
 # 9.11.4.3
 
@@ -51,12 +51,12 @@ _you are advised to run the following in a tmux or screen session_
 #### Prepare Cache and TMPDIR
 
 ```bash
-conda activate dremstar
+conda activate drsemstar
 
 # Set your cache dir for saving resources useful across other jobs, snakemake uses this when the `--cache` flag is set.
 
-mkdir /fsx/resources/environments/containers/ubuntu/rnaseq_cache/
-export SNAKEMAKE_OUTPUT_CACHE=/fsx/resources/environments/containers/ubuntu/rnaseq_cache/
+mkdir /fsx/resources/environments/containers/ubuntu/drsemstar_cache/
+export SNAKEMAKE_OUTPUT_CACHE=/fsx/resources/environments/containers/ubuntu/drsemstar_cache/
 export TMPDIR=/fsx/scratch/
 ```
 
